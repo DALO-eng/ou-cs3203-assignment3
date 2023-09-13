@@ -14,6 +14,7 @@ const main = function () {
   const numbers = process.argv.slice(2).map((x) => +x);
   console.log("Sum: ", sum(numbers));
   console.log("Multiply: ", multiply(numbers));
+  console.log("Reverse: ", reverse(numbers));
 };
 
 main();
